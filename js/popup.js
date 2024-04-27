@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+    var container = document.getElementById('flexContainer');
+
+    container.classList.add('animated-container');
+
+    setTimeout(function() {
+      container.style.display = 'none';
+    }, 5000); 
+
     const feedbackBtn = document.querySelector('.read-btn');
     const modal = document.querySelector('.modal');
   
